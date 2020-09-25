@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\tap">
+      <UniqueIdentifier>{5cbbe41c-e9a6-4559-8000-196b1713a5d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tap">
+      <UniqueIdentifier>{42bb8ce0-9966-4644-bb1c-17df51648c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\comm">
+      <UniqueIdentifier>{378b0ce8-0865-41f3-9876-7966f870f49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\own">
+      <UniqueIdentifier>{dd251f9d-442a-49af-bbcf-f108ea59d19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\own">
+      <UniqueIdentifier>{0ecb9f4b-111b-457a-816e-6dab366241c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\comm">
+      <UniqueIdentifier>{9315f19e-88ea-4089-99ea-d9d229cb08ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\cpp\comm\comm_tool.cpp">
+      <Filter>源文件\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\main_fetcher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\tap\Quote.cpp">
+      <Filter>源文件\tap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\tap\SimpleEvent.cpp">
+      <Filter>源文件\tap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\comm\comm_struct.h">
+      <Filter>头文件\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\comm\comm_tool.h">
+      <Filter>头文件\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\comm\go_sharememory.h">
+      <Filter>头文件\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\comm\system_middleware.h">
+      <Filter>头文件\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\middleware.h">
+      <Filter>头文件\own</Filter>
+    </ClInclude>
+    <ClInclude Include="include\in_system.h">
+      <Filter>头文件\own</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tool.h">
+      <Filter>头文件\own</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fetcherDef.h">
+      <Filter>头文件\own</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tap\Quote.h">
+      <Filter>头文件\tap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tap\QuoteConfig.h">
+      <Filter>头文件\tap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tap\SimpleEvent.h">
+      <Filter>头文件\tap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tap\TapAPICommDef.h">
+      <Filter>头文件\tap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tap\TapAPIError.h">
+      <Filter>头文件\tap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tap\TapDataCollectAPI.h">
+      <Filter>头文件\tap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tap\TapQuoteAPI.h">
+      <Filter>头文件\tap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tap\TapQuoteAPIDataType.h">
+      <Filter>头文件\tap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tap\TapTradeAPI.h">
+      <Filter>头文件\tap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tap\TapTradeAPIDataType.h">
+      <Filter>头文件\tap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tap\Trade.h">
+      <Filter>头文件\tap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tap\TradeConfig.h">
+      <Filter>头文件\tap</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

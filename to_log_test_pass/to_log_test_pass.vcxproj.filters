@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\comm">
+      <UniqueIdentifier>{11d50c60-ce18-4c31-8d40-6b65bb0ea152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\comm">
+      <UniqueIdentifier>{9dce2792-d8c1-40a2-8138-43c53404720a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpp\main_pass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\forTestPass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\comm\comm_tool.cpp">
+      <Filter>源文件\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\comm\go_sharememory.cpp">
+      <Filter>源文件\comm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\comm\system_middleware.h">
+      <Filter>头文件\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\comm\go_sharememory.h">
+      <Filter>头文件\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\comm\comm_struct.h">
+      <Filter>头文件\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\forTestPass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main_pass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
